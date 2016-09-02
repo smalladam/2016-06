@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>hello</h1>
+	<h2>world</h2>
+     <p>你好，World I am zhangzhiyang I am a student!</p>
+     <p>Today is sunny!!</p>
+
+	<input type="button" value="获取数据" id="btn">
+	<script src="js/jquery-1.11.1.js"></script>
+	<script>
+     $("#btn").click(function(){
+     	$.ajax({
+     		url:"/getdata",
+     		type:get,
+     		success:function(data){
+     			console.log(data)
+     		},
+     		err:function(){
+     			alert(404)
+     		}
+     	})
+     })
+	</script>
+</body>
+</html>

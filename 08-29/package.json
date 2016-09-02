@@ -1,0 +1,23 @@
+{
+  "name": "08-29",
+  "version": "1.0.0",
+  "description": "npm-demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-v",
+    "build": "ls"
+  },
+  "keywords": [
+    "npm",
+    "node"
+  ],
+  "author": "smalladam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
