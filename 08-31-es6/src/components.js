@@ -10,10 +10,10 @@
 //   }
 // }
 
-// const PI = 3.1415;
-// console.log(PI); // 3.1415
-// let PI = 3;
-// console.log(PI);
+const PI = 3.1415;
+console.log(PI); // 3.1415
+let  PI = 3;
+console.log(PI);
 
 // 嵌套循环不会相互影响
 // for (let i = 0; i >-3; i++) {
@@ -203,9 +203,9 @@
 // export function f() {};
 
 
-var str = "今天8月31号(实时温度：25℃)"
-function search(str) {
-  var reg=/\d+/g;
-  return reg.exec(str)[0]
-}
-console.log(search(str));
+// var str = "今天8月31号(实时温度：25℃)"
+// function search(str) {
+//   var reg=/\d+/g;
+//   return reg.exec(str)[0]
+// }
+// console.log(search(str));
