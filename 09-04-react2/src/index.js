@@ -1,6 +1,8 @@
-'use strict';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import  './Common.css';
 
-// import { firstName } from "./components.js";
-// console.log(firstName);
- import firstName2  from "./components.js";
- console.log(firstName2);
+
+
+ReactDOM.render(<App/>,document.getElementById('app'));
