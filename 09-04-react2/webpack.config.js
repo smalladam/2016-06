@@ -11,7 +11,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer: {
-        publicPath: "/static/",
+        // publicPath: "/static/",
         stats: {
             colors: true,
             hot: true
@@ -36,6 +36,10 @@ module.exports = {
       test: /\.css/,
       loader: 'style!css'
     },
+        {
+      test: /\.(jpe?g|png)$/,
+      loader: 'file-loader'
+    }
       ]
     }
 
