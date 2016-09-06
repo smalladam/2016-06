@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Tab from "./Tab.js";
+import Navbar from "./Navbar.js";
+import Ref from './Ref.js';
+import RefNav from './RefNav.js'
+
+
 
 class App extends React.Component {
     constructor(){
@@ -35,8 +40,12 @@ class App extends React.Component {
              <div style={styles.box1}>我是张志阳</div>
              <div style={styles.box2}>我是孙浩</div>
              <div style={styles.box3}>我是张子疼</div>
+             <Navbar />
+             <Ref />
+             <RefNav />
           </div>
+
         )
       }
     }
-ReactDOM.render(<Tab />,document.getElementById('app'));
+ReactDOM.render(<RefNav />,document.getElementById('app'));
