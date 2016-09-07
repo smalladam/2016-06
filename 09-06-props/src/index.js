@@ -19,24 +19,24 @@ import Btn from './Btn';
 // ReactDOM.render(<App  name={{...obg}} />,document.getElementById('app'));
 let content=[
   {title:'hello',bg:'#C2185b'},
-  {title:'hello',bg:'#795543'},
-  {title:'hello',bg:'#328963'},
-  {title:'hello',bg:'#722358'},
-  {title:'hello',bg:'#932892'},
+  // {title:'张子疼',bg:'#795543'},
+  // {title:'桑建辉',bg:'#328963'},
+  // {title:'张志阳',bg:'#722358'},
+  // {title:'王  成',bg:'#932892'},
 ];
 // let btns=[<Btn title="smalladam" bg="#c21858"/>,<Btn title='我是小帅阳' bg='#5360FE'/>]
-let btns=[];
-
-for (let i=0; i < content.length;i++){
-  btns.push(
-    <Btn title={content[i].title} bg={content[i].bg} key={i}/>
-  )
-}
+// let btns=[];
+//
+// for (let i=0; i < content.length;i++){
+//   btns.push(
+//     <Btn title={content[i].title} bg={content[i].bg} key={i}/>
+//   )
+// }
 let btns=content.map(function (item,index){
-  return <Btn title={item,title} bg={item.bg} key={index} />
+  return <Btn title={item.title} bg={item.bg} key={index} />
 })
 
-console.log([1,2].map(item,index) => <Btn title={item.title} bg={item.bg} key={index} />)
+// console.log([1,2].map(item,index) => <Btn title={item.title} bg={item.bg} key={index} />)
 
 ReactDOM.render(
   <div>

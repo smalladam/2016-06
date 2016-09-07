@@ -18,5 +18,9 @@ class Btn extends React.Component {
 
   }
 }
+Btn.defaultProps = {
+  title:'请输入标题',
+  bg:'#4238771'
+};
 
 export default Btn;
