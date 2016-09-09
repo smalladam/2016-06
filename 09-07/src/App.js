@@ -1,8 +1,7 @@
 import React, { PropTypes } from 'react';
 import Card from './Card';
-import './main.css';
 import data from './data';
-import Test from './Test'
+
 
 class App extends React.Component {
   render () {
@@ -10,7 +9,7 @@ class App extends React.Component {
     return(
       <div>
         <Card item={data} />
-        <Test />
+        <data />
       </div>
     )
   }

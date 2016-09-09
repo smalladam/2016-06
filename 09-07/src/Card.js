@@ -74,5 +74,7 @@ class Card extends React.Component {
 //   index:PropTypes.number.isRequired,
 //
 // }
-
+Card.propTypes = {
+  item:PropTypes.array.isRequired
+};
 export default Card;
