@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Test from './Test';
+import Test from './Test.js';
 import './main.css';
 
 
