@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Test from './Test.js';
+import Tests from './Tests.js';
 import './main.css';
 
 
-ReactDOM.render(<Test />,document.getElementById('app'));
+ReactDOM.render(<Tests />,document.getElementById('app'));

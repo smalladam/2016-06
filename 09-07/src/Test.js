@@ -23,11 +23,11 @@ class  Test extends React.Component {
   }
   handleGo(i){
     let _page = this.state.page + i;
-    let pageNum = Math.ceil(arr.length/5);
+    let pageNum = Math.ceil(arr.length/4);
 
     if (_page < 0){
       alert('已经到达第一页！');
-    }else if (_page > pageNum - 1){
+    }else if (_page > pageNum - 0){
       alert("已经到达最后一页！")
     }else{
       this.setState({page:_page})
@@ -37,7 +37,7 @@ class  Test extends React.Component {
   render () {
     let showArr = [];
     let num = this.state.page;
-    for (let i = num*5; i < (num+1)*5; i++){
+    for (let i = num*10; i < (num+1)*10; i++){
       showArr.push(
         arr[i]
       )
@@ -45,7 +45,7 @@ class  Test extends React.Component {
 
     let items = showArr.map( (item,i) => <p key={i}>{item}</p>);
 
-    let btnNum = Math.ceil(arr.length/5);
+    let btnNum = Math.ceil(arr.length/10);
     let btns = [ ];
     for (let i = 0;i < btnNum;i++ ){
       btns.push(
