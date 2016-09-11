@@ -1,6 +1,7 @@
 import  React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import Timer from './Timer.js'
 
 class Main extends React.Component {
   constructor(){
@@ -26,9 +27,10 @@ class Main extends React.Component {
           <App propsNum={this.state.num} />
           <button onClick={this.handleClick.bind(this)}>click</button>
           <button onClick={this.handleDesctroy.bind(this)}>销毁组件</button><br />
+          <Timer />
         </div>
       )
 }
 }
 
-ReactDOM.render(<Main />, document.getElementById('app'))
+ReactDOM.render(<Timer />, document.getElementById('app'))
