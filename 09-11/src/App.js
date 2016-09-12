@@ -25,13 +25,23 @@ class App extends Component {
       this.setState({nowShow:3})
     }
   }
+  goPlay(){
+    this.autoPlayFlag = setInterval(() =>{
+      this.tick(1);
+    },3000);
+  }
   componentDidMount(){
     this.interval = setInterval(this.tick.bind(this,1), 3000);
+  }
+  componentDidMount(){
+    this.goPlay()
   }
   Jump(x){
     this.setState({nowShow:x})
   }
-
+  pausePlay(){
+    clearInterval(this.autoPlayFlag)
+  }
   render () {
     let styles={
       root:{
@@ -56,7 +66,7 @@ class App extends Component {
       }
     }
     return(
-      <div style={styles.root}>
+      <div style={styles.root} onMouseOver={this.pausePlay.bind(this)} onMouseOut={this.goPlay.bind(this)}>
         <ul style={styles.ul} className="clearfix">
           <li style={styles.li}><img src={Bgc1} style={styles.img}/></li>
           <li style={styles.li}><img src={Bgc2} style={styles.img}/></li>
