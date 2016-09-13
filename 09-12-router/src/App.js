@@ -8,7 +8,7 @@ class App extends Component {
         <Link to="/" activeStyle={{color: 'red'}}>App</Link><br/>
         <Link to="/about" activeStyle={{color: 'red'}}>About</Link><br/>
         <Link to="/login" activeStyle={{color: 'red'}}>Login</Link><br/>
-        <Link to="/about/content" activeStyle={{color: 'red'}}>content</Link>
+        <Link to="/content" activeStyle={{color: 'red'}}>content</Link>
         {this.props.children}
 
         <footer>我是footer</footer>

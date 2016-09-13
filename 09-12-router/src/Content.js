@@ -6,6 +6,10 @@ class Content extends Component {
     return (
       <div>
         <h1>我是content组件</h1>
+        <h1>我是content组件</h1>
+        <h1>我是content组件</h1>
+        <h1>我是content组件</h1>
+        <h1>我是content组件</h1>
       </div>
     );
   }

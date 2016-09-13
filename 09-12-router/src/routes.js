@@ -11,11 +11,11 @@ class Routers extends React.Component{
     return(
       <Router history={browserHistory}>
         <Route path="/" component={App}>
-          <Route path="about" component={About}>
-            <Route path="content" component={Content} />
-          </Route>
+          <Route path="about" component={About} />
           <Route path="login" component={Login} />
+          <Route path="content/:user" component={Content} />
         </Route>
+        
       </Router>
     )
   }
