@@ -12,11 +12,11 @@ class Navbar extends React.Component {
           </div>
           <ul className="nav nav-pills" >
               <li role="presentation"><Link to ="/"
-              activeStyle={{backgroundColor:'green',color:'#000'}} onlyActiveOnIndex={true}>Home</Link></li>
+              activeStyle={{backgroundColor:'yellow',color:'#000'}} onlyActiveOnIndex={true}>Home</Link></li>
               <li role="presentation" ><Link to ="/work"
-              activeStyle={{backgroundColor:'green',color:'#000'}} >Work</Link></li>
+              activeStyle={{backgroundColor:'yellow',color:'#000'}} >Work</Link></li>
               <li role="presentation" ><Link to ="/about"
-              activeStyle={{backgroundColor:'green',color:'#000'}} >About</Link></li>
+              activeStyle={{backgroundColor:'yellow',color:'#000'}} >About</Link></li>
           </ul>
         </div>
       </nav>

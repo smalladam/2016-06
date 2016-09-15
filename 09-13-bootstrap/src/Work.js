@@ -10,8 +10,8 @@ class Work extends React.Component {
           <div className="thumbnail">
             <img src={Bg1} alt="..." />
             <div className="caption">
-              <h3>Thumbnail label</h3>
-              <p>你好啊</p>
+              <h3>我是小帅阳</h3>
+              <p>hello</p>
               <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
             </div>
           </div>
@@ -20,8 +20,8 @@ class Work extends React.Component {
           <div className="thumbnail">
             <img src={Bg2} alt="..." />
             <div className="caption">
-              <h3>Thumbnail label</h3>
-              <p>你好啊</p>
+              <h3>我是阳小帅</h3>
+              <p>hello</p>
               <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
             </div>
           </div>
@@ -30,8 +30,8 @@ class Work extends React.Component {
           <div className="thumbnail">
             <img src={Bg3} alt="..." />
             <div className="caption">
-              <h3>Thumbnail label</h3>
-              <p>哈哈哈</p>
+              <h3>我是帅小阳</h3>
+              <p>hello</p>
               <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
             </div>
           </div>
