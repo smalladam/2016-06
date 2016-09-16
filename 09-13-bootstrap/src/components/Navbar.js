@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router'
+import { Link } from 'react-router';
+import '../style/common.css';
 
 class Navbar extends React.Component {
   render () {
@@ -7,8 +8,8 @@ class Navbar extends React.Component {
     <div>
       <nav className="navbar navbar-default">
         <div className="container-fluid">
-          <div className="navbar-header">
-            <a className="navbar-brand" href="#">SMALLADAM</a>
+          <div className="navbar-heade">
+            <a className="navbar-bar" href="#">Smalladam 's WebSite'</a>
           </div>
           <ul className="nav nav-pills" >
               <li role="presentation"><Link to ="/"
