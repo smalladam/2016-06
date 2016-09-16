@@ -5,6 +5,7 @@ import App from './App';
 import About from './About';
 import Work from './Work';
 import Home from './Home';
+import Blog from './Blog';
 
 class  Routers extends React.Component {
   render () {
@@ -14,6 +15,7 @@ class  Routers extends React.Component {
           <IndexRoute component={Home} />
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
+          <Route path="/blog/:title" component={Blog} />
         </Route>
      </Router>
    );
