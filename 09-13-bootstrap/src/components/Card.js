@@ -15,7 +15,7 @@ class Card extends React.Component {
         <div className="caption">
           <h3>{this.props.title}</h3>
           <p>{this.props.desc}</p>
-          <p><a className="btn btn-primary" role="button" onClick={this.handleJump.bind(this)}>Button</a> </p>
+          <p><a className="btn btn-primary" role="button" onClick={this.handleJump.bind(this)}>Button</a></p>
         </div>
       </div>
     </div>
